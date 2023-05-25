@@ -1,0 +1,415 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*  this is header */
+
+
+
+.header{
+    background-color: rgb(253, 254, 255);
+    border-bottom: 1px solid #ddd;
+}
+.search{
+    margin-top: 27px;
+    position: relative;
+    margin-left: -102px;
+}
+.from-controls {
+    padding: 0 46px;
+    border: 1px solid #ddd;
+}
+button {
+    border: none;
+    border-radius: 5px;
+    background-color: green;
+    
+}
+.botton-1 {
+    border: none;
+    padding: 1px 8px;
+    background-color: green;
+    color: white;
+    border-radius: 3px;
+    position: absolute;
+    left:237px;
+    top: 0;
+}
+.main-menu{
+    display: inline-block;
+}
+.main-menu ul{
+
+    
+}
+.main-menu ul li{
+    list-style-type: none;
+    display: inline-block;  
+    padding: 24px 20px;
+}
+.main-menu ul li a{
+    text-decoration: none;
+   
+}
+.main-menu ul li a:hover{
+    color: rgb(126, 35, 211);
+}
+.login-class {
+
+    border: 1px solid rgb(20, 20, 20);
+   padding: 3px 9px;
+    border-radius: 4px;
+    
+
+}
+.works{}
+.works-list{}
+.works-list ul{}
+.works-list ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 22px 15px;
+}
+.works-list ul li a{
+    text-decoration: none;
+   color: rgb(158, 145, 145);
+   
+}
+.benner{
+    height: 400px;
+    background-image: url(../fiverr/images/founder.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.rajib {
+
+    margin-left: 3px;}
+    .content{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+        'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: bold;
+    }
+    .popular{
+         margin-top: 15px;
+       
+
+        }
+        .col-lg-8 {
+            margin-top: 63px;
+        }
+    .popular ul{}
+    .popular ul li{
+        list-style-type: none;
+        display: inline-block;
+        border: 1px solid #ddd;
+        padding: 0px 12px;
+        color: rgb(15, 15, 15);
+        border-radius: 13px;
+        font-size: 12px;
+    }
+   
+    #poos{
+        border: none;
+    }
+
+
+    .social-link {
+        background-color: cornsilk;
+        box-shadow: 4px 4px 20px 0 rgba(0,0,0,.2);
+        border-bottom: 1px solid #ddd;
+        border-spacing: inherit;
+    }
+    .social-link .link-for-social{
+        margin-left: 202px;
+    }
+    .social-link .link-for-social img{
+        max-width: 100%;
+        height: 50px;
+
+        padding: 0px 35px;
+    }
+
+
+
+    /* this is popular professional service */
+
+    .popular-service {
+        margin-top: 98px;
+    }
+    .popular-service .margin-left{
+        margin-left: 188px;
+        padding: 15px 0px;
+    }
+    .logo-desing{
+        background-image: url(../fiverr/Download/images/logo-design-2x.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        height: 300px;
+        padding: 10px;
+        box-shadow: 2px 2px 2px 2px rgb(99, 95, 95);
+    }
+    .Wordpress{
+        background-image: url(../fiverr/Download/images/wordpress-2x.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        height: 300px;
+        padding: 10px;
+    }
+    .Voice-Over{
+        background-image: url(../fiverr/Download/images/voiceover-2x.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        height: 300px;
+        padding: 10px;
+    }
+    .Whiteboard{
+        background-image: url(../fiverr/images/whiteboard@2x.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        height: 300px;
+        padding: 10px;
+    }
+
+
+    .confidence {
+        margin-top: 76px;
+        padding: 2px 0px;
+    }
+    .work-faster{
+
+    }
+    .payment {
+        padding: 5px 0px;
+    }
+    .payment h4{
+        font-weight: bold;
+
+    }
+    .rajib-bd{
+        text-align: center;
+    }
+   .rajib-bd img{
+    width: 55px;
+    display: inline-block;
+    margin: auto;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+   }
+   .explore {
+    margin-left: 194px;
+}
+.marketplace {
+    margin-top: 72px;
+}
+.box-sd{
+    box-shadow: 0px 7px 18px 1px rgb(124, 123, 123);
+}
+.logo-desing-by-rajib{
+    
+}
+.logo-desing-by-rajib img{
+    border-radius: 5px;
+   height: 250px;
+   width: 250px;
+}
+.by-rajib {
+    display: inline-block;
+    padding: 13px 19px;
+   
+}
+
+
+/* this is rajib */
+
+
+.by-rajib img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: left;
+    margin-left: 12px;
+
+}
+.by-rajib p{
+    float: left;
+    padding: 0px 13px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #575859;
+    font-family: unset;
+}
+.by-rajib span{
+    float: left;
+    padding: 2px 21px;
+    margin-bottom: 5px;
+    color: #747576;
+    font-size: 18px;
+}
+.header-div{
+    padding: 38px 0px; 
+}
+.section-div {
+    margin-top: 144px;
+}
+.section-div img{
+    max-width: 100%;
+    box-shadow: -4px 3px 17px 1px rgb(78, 71, 71);
+}
+.content-section {
+    padding: 135px 52px;
+    font-family: initial;
+    font-size: 17px;
+}
+.divition{
+    border: 1px dotted #ddd;
+    box-shadow: -4px 3px 17px 1px rgb(78, 71, 71);
+}
+.Unrivaled {
+    margin-top: 102px;
+    color: white;
+}
+.image-lagbe{
+    background-image: url(../fiverr/images/pexels-photo-303383.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  background-attachment: scroll;
+  height: 300px;
+  padding: 136px 22px;
+box-shadow: -1px 10px 11px 8px rgb(63, 55, 55);
+}
+.bottom{
+    padding: 9px;
+border: 1px solid blanchedalmond;
+transition: .7s;
+}
+.bottom:hover{
+    background-color: rgb(23, 67, 187);
+}
+.right-tools {
+    margin-top: 107px;
+   
+}
+.business-tools {
+    padding: 5px;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.trans {
+    padding: 17px 0;
+}
+.trans h4{
+font-family:Arial, Helvetica, sans-serif;
+font-weight: bold;
+}
+
+.fiverr-guides{
+    margin-top: 71px;
+}
+.small-business{}
+.small-business img{
+    max-width: 100%;
+    box-shadow: 5px 1px 10px -1px rgb(77, 69, 69);
+}
+.small-business h2{
+    font-size: 20px;
+font-weight: revert;
+
+}
+.business-needs h2{
+ padding: 12px 0;
+ font-family: Arial, Helvetica, sans-serif;
+}
+.business-needs p{
+    padding:7px 0 ;
+}
+.business-needs{
+    margin-top: 70px;
+    text-align: center;
+    color: white;
+}
+.business-needs a{
+    text-decoration: none;
+    color: white;
+}
+.bgc-rajib{
+    background-image: url(../fiverr/images/pexels-photo-669996.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 5px 1px 10px -1px rgb(77, 69, 69);
+}
+
+.click{
+font-size: 19px;
+text-decoration: none;
+display: inline-block;
+background-color: blueviolet;
+color: white;
+padding: 15px 40px;
+border-radius: 10px;
+position: relative;
+z-index: 1;
+}
+.click::before {
+    content: "";
+    height: 100%;
+    width: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(33, 196, 46);
+    border-radius: 10px;
+    color: white;
+    transition: .7s;
+    z-index: -1;
+}
+.click:hover::before{
+    content: "";
+    width:176px ;
+    color: white;
+    text-decoration: none;
+}
+.padding-dibo{
+    padding: 56px;
+}
+
+/* this is footer  */
+.footer{
+    margin-top: 50px;
+    border-top: 1px solid #ddd;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+.footer-contant{}
+.footer-contant ul{}
+.footer-contant ul li{
+    list-style-type: none;
+    padding: 10px 0;
+}
+.footer-contant ul li a{
+    text-decoration: none;
+    color: rgb(151, 129, 129);
+    
+}
+.footer-contant ul li a h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.fiverr-logo{
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-left: 112px;
+}
+.fiverr-copyright {
+    margin-top: 35px;
+    font-family: cursive;
+}
